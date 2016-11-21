@@ -80,15 +80,15 @@ BRUSHED.slider = function(){
 		
 //Below script inserts home slider images and titles + captions. Inserted span class to amend color of caption text. Color of large text can be amended at main2.js at line 383.
 											
-											{image : '_include/img/slider-images/00 Blank.jpg', title : '<div class="slide-content"><h3><span class="color-text">Architecture</span></h3> </div>', thumb : '', url : ''},
-											{image : '_include/img/slider-images/00 Logo.jpg', title : '<div class="slide-content"><h3><span class="color-text">Architecture</span></h3> </div>', thumb : '', url : ''},
-											{image : '_include/img/slider-images/00 Blank.jpg', title : '<div class="slide-content">FABNOVATION<h3><span class="color-text"></span></h3> </div>', thumb : '', url : ''},
-//											{image : '_include/img/slider-images/03 Origami.jpg', title : '<div class="slide-content">Fabnovation<h3>innovation begins by making</h3> </div>', thumb : '', url : ''},
-//											{image : '_include/img/slider-images/04 Laser Cutting.jpg', title : '<div class="slide-content">Fabnovation<h3>innovation begins by making</h3> </div>', thumb : '', url : ''} ,
-//											{image : '_include/img/slider-images/05 3D print.jpg', title : '<div class="slide-content">Fabnovation<h3>innovation begins by making</h3> </div>', thumb : '', url : ''},
-//											{image : '_include/img/slider-images/06 CNC.jpg', title : '<div class="slide-content">Fabnovation<h3>innovation begins by making</h3> </div>', thumb : '', url : ''},
-//											{image : '_include/img/slider-images/07 Soldering.jpg', title : '<div class="slide-content">Fabnovation<h3>innovation begins by making</h3> </div>', thumb : '', url : ''},
-//											{image : '_include/img/slider-images/08 Label Making.jpg', title : '<div class="slide-content">Fabnovation<h3>innovation begins by making</h3> </div>', thumb : '', url : ''}
+											{image : 'img/slider-images/00 Blank.jpg', title : '<div class="slide-content"><h3><span class="color-text">Architecture</span></h3> </div>', thumb : '', url : ''},
+											{image : 'img/slider-images/00 Logo.jpg', title : '<div class="slide-content"><h3><span class="color-text">Architecture</span></h3> </div>', thumb : '', url : ''},
+											{image : 'img/slider-images/00 Blank.jpg', title : '<div class="slide-content">FABNOVATION<h3><span class="color-text"></span></h3> </div>', thumb : '', url : ''},
+//											{image : 'img/slider-images/03 Origami.jpg', title : '<div class="slide-content">Fabnovation<h3>innovation begins by making</h3> </div>', thumb : '', url : ''},
+//											{image : 'img/slider-images/04 Laser Cutting.jpg', title : '<div class="slide-content">Fabnovation<h3>innovation begins by making</h3> </div>', thumb : '', url : ''} ,
+//											{image : 'img/slider-images/05 3D print.jpg', title : '<div class="slide-content">Fabnovation<h3>innovation begins by making</h3> </div>', thumb : '', url : ''},
+//											{image : 'img/slider-images/06 CNC.jpg', title : '<div class="slide-content">Fabnovation<h3>innovation begins by making</h3> </div>', thumb : '', url : ''},
+//											{image : 'img/slider-images/07 Soldering.jpg', title : '<div class="slide-content">Fabnovation<h3>innovation begins by making</h3> </div>', thumb : '', url : ''},
+//											{image : 'img/slider-images/08 Label Making.jpg', title : '<div class="slide-content">Fabnovation<h3>innovation begins by making</h3> </div>', thumb : '', url : ''}
 									],
 									
 		// Theme Options			   
@@ -230,8 +230,8 @@ BRUSHED.tweetFeed = function(){
 	var valueTop = -64; // Margin Top Value
 	
     $("#ticker").tweet({
-          modpath: '_include/js/twitter/',
-          username: "Bluxart", // Change this with YOUR ID
+          modpath: 'js/twitter/',
+          username: "Fabnovation", // Change this with YOUR ID
           page: 1,
           avatar_size: 0,
           count: 10,
@@ -413,7 +413,7 @@ $(document).ready(function(){
 	Modernizr.load([
 	{
 		test: Modernizr.placeholder,
-		nope: '_include/js/placeholder.js', 
+		nope: 'js/placeholder.js', 
 		complete : function() {
 				if (!Modernizr.placeholder) {
 						Placeholders.init({
