@@ -1,0 +1,550 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if (IE 9)]><html class="no-js ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en-US">
+ <!--<![endif]-->
+<head>
+    <!-- Meta Tags -->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Fab Academy, Fablab">
+    <meta name="João Leão" content="Digital Fabrication, Maker, Opolab, Fablab, Inventor, Electronica, Fabcity Porto, 3D Printing, João Leão, Fabricação Digital, Portugal,  Porto">
+    <link rel="icon" href="_include/img/favicon.ico">
+
+    <title>Fab Academy 2016-João Leão</title>
+    <meta name="description" content="Follow me along my Fabacademy" />
+    <!-- Mobile Specifics -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="MobileOptimized" content="320" />
+    <!-- Mobile Internet Explorer ClearType Technology -->
+    <!--[if IEMobile]>  <meta http-equiv="cleartype" content="on">  <![endif]-->
+    <!-- Bootstrap -->
+    <link href="_include/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Main Style -->
+    <link href="_include/css/main.css" rel="stylesheet">
+    <!-- Supersized -->
+    <link href="_include/css/supersized.css" rel="stylesheet">
+    <link href="_include/css/supersized.shutter.css" rel="stylesheet">
+    <!-- FancyBox -->
+    <link href="_include/css/fancybox/jquery.fancybox.css" rel="stylesheet">
+    <!-- Font Icons -->
+    <link href="_include/css/fonts.css" rel="stylesheet">
+    <!-- Shortcodes -->
+    <link href="_include/css/shortcodes.css" rel="stylesheet">
+    <!-- Responsive -->
+    <link href="_include/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="_include/css/responsive.css" rel="stylesheet">
+    <!-- Supersized -->
+    <link href="_include/css/supersized.css" rel="stylesheet">
+    <link href="_include/css/supersized.shutter.css" rel="stylesheet">
+    <!-- Google Font -->
+    <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900' rel='stylesheet' type='text/css'>
+    <!-- Fav Icon -->
+    <link rel="shortcut icon" href="#">
+    <link rel="apple-touch-icon" href="#">
+    <link rel="apple-touch-icon" sizes="114x114" href="#">
+    <link rel="apple-touch-icon" sizes="72x72" href="#">
+    <link rel="apple-touch-icon" sizes="144x144" href="#">
+    <!-- Modernizr -->
+    <script src="_include/js/modernizr.js"></script>
+    <!-- Analytics -->
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'Insert Your Code']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script>
+    <!-- End Analytics -->
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-73210250-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+</head>
+
+<body>
+    <!-- This section is for Splash Screen -->
+    <div class="ole">
+        <section id="jSplash">
+            <div id="circle"></div>
+        </section>
+    </div>
+    <!-- End of Splash Screen -->
+    <!-- Homepage Slider -->
+    <div id="home-slider">
+        <div class="overlay"></div>
+        <div class="slider-text">
+            <div id="slidecaption"></div>
+            <img src="_include/img/FabLogo.png" alt="Fablogo">
+        </div>
+
+        <div class="control-nav">
+            <a id="prevslide" class="load-item"><i class="font-icon-arrow-simple-left"></i></a>
+            <a id="nextslide" class="load-item"><i class="font-icon-arrow-simple-right"></i></a>
+            <ul id="slide-list"></ul>
+
+            <a id="nextsection" href="#work"><i class="font-icon-arrow-simple-down"></i></a>
+        </div>
+    </div>
+    <!-- End Homepage Slider -->
+    <!-- Header -->
+    <header>
+        <div class="sticky-nav">
+            <a id="mobile-nav" class="menu-nav" href="#menu-nav"></a>
+            <div id="logo">
+                <a id="goUp" class="button button-large" href="#home-slider" title="logo">Fab Academy</a>
+            </div>
+            <nav id="menu">
+                <ul id="menu-nav">
+                    <li class="current"><a href="#home-slider">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#work">Assignments</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+    <!-- End Header -->
+    <!-- About Section -->
+    <div id="about" class="page">
+        <div class="container">
+            <!-- Title Page -->
+            <div class="row">
+                <div class="span12">
+                    <div class="title-page">
+                        <h2 class="title">About Me</h2>
+                        <h3 class="title-description">Hey, I'm João Leão from Porto, Portugal!</h3>
+                    </div>
+                </div>
+            </div>
+            <!-- End Title Page -->
+            <!-- People -->
+            <div class="row">
+
+                <!-- Start Profile -->
+                <div class="span4 profile">
+                    <div class="image-wrap">
+                        <div class="hover-wrap">
+                        </div>
+                        <img src="_include/img/profile/Jo%C3%A3oLe%C3%A3o.jpg" alt="João Leão">
+                    </div>
+                    <h3 class="profile-name">João Leão</h3>
+                    <p class="profile-description">
+                        Hey, my name is João Leão and I'm a Maker from Porto, Portugal! I first heard of the Fablab community almost 7 years ago, there wasn’t even one in my country at the time and I knew it was the future! Ever since I've heard about the FabAcademy I've been saving and working towards the day that I would be able to attend it, my path took me to the Oporto Fablab (Opolab) where I was mentored by <span class="color-text">João Feyo</span> and had my first contact with a Fablab.<br> My learning curve exploded exponentially ever since! I worked in several projects in different areas which helped me grow not only professionally but also as an individual! After the Fabacademy I'll be able to bring extra value to the team and help them reach the goal we share, to help the local community and its economy through the tools and know-how of the Fablab world community.<br>
+                        Having this learning experience (DIY/Self-taught) throughout the years a project was born, in partnership with <span class="color-text">Alexandra Baltazar</span> (Viva) and with the support of <span class="color-text">Pedro Cardoso</span> (<a href="http://www.the.pt/" target="_blank">The House of Events</a>), Viva Robotics was born, aiming to give the tools and passion of learning by doing to kids through a STEAM platform of Lego robotics and in the future Electronics for kids!
+                        <h4>Mission :</h4> <span class="color-text">To improve the lives of as many people as possible</span> through my talent to create and innovate, basing my creations on the three fundamental pillars of Art, Nature and Technology
+                        .
+                    </p>
+
+                    <div class="social">
+                        <ul class="social-icons">
+                            <li><a href="#"><i class="font-icon-social-"></i></a></li>
+                            <li><a href="https://www.facebook.com/profile.php?id=1095003853&ref=bookmarks" target="_blank"><i class="font-icon-social-facebook"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- End Profile -->
+                <!-- Start Profile -->
+                <div class="span4 profile">
+                    <div class="image-wrap">
+                        <div class="hover-wrap">
+
+                        </div>
+                        <img src="_include/img/profile/Opolab.gif" alt="Opolab">
+                    </div>
+                    <h3 class="profile-name">OpoLab</h3>
+                    <p class="profile-description">
+                        A Fab Lab (or fabrication laboratory) is a small-scale working area for personal digital fabrication, equipped with an array of flexible computer controlled tools and various materials, with the aim to make “almost anything”.It is a technical <span class="color-text">prototyping platform for education, innovation and invention</span>. To be a Fab Lab means connecting to a global community of learners, educators, technologists, researchers, makers and innovators! <br>
+                        Since its founding year, 2010, the OPO-LAB has contributed to the development and realization of projects proposed by countless creative minds that challenge the limits.
+                        This project assumes therefore a key strategic role in the context in which it operates, to<span class="color-text"> establish important partnerships with other social actors</span> such as public authorities, schools and associations, cultural and scientific advancement.<br>
+                        <h4> Mission:</h4>
+                        To sensitize the general population to the benefits of the use of digital technologies improving the local communnity and its economy.
+                    </p>
+
+                    <div class="social">
+                        <ul class="social-icons">
+                            <li><a href="http://www.opolab.com/#front" target="_blank"><span class="font-icon-globe_line"></span></a></li>
+                            <li><a href="https://www.facebook.com/opofablab" target="_blank"><i class="font-icon-social-facebook"></i></a></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <!-- End Profile -->
+                <!-- Start Profile -->
+                <div class="span4 profile">
+                    <div class="image-wrap">
+                        <div class="hover-wrap">
+
+                        </div>
+                        <img src="_include/img/profile/Viva.jpg" alt="Viva">
+                    </div>
+                    <h3 class="profile-name">Viva</h3>
+                    <p class="profile-description">
+                        The Viva Project is all about <span class="color-text">innovating the formal model of development of young people</span>. To increase the quantity and quality of personal abilities but also having an emphasis in team work as an essential tool to accomplish bigger and better results!<br>
+                        The activities on Viva promote creativity, problem solving tools,  <span class="color-text">the importance of failure in learning</span>, entrepreneurship, Learning by doing(DIY- Do it yourself and DIWO- Do it with others) giving value to art, history and culture.
+                        <h4>Mission:</h4>
+                        Showing a new approach to education through STEAM and other DIY/DIWO activities!
+                    </p>
+
+                    <div class="social">
+                        <ul class="social-icons">
+                            <li><a href="http://www.viva-the.com/" target="_blank"><span class="font-icon-globe_line"></span></a></li>
+                            <li><a href="https://www.facebook.com/Vive-T-H-E-100194803378756/timeline" target="_blank"><span class="font-icon-social-facebook" target="_blank"></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- End Profile -->
+
+            </div>
+            <!-- End People -->
+        </div>
+    </div>
+    <!-- End About Section -->
+    <!-- Our Work Section -->
+    <div id="work" class="page-alternate">
+        <div class="container">
+            <!-- Title Page -->
+            <div class="row">
+                <div class="span12">
+                    <div class="title-page">
+                        <h2 class="title">Weekly Assesments</h2>
+                        <h3 class="title-description">João Leão</h3>
+                    </div>
+                </div>
+            </div>
+            <!-- End Title Page -->
+            <!-- Portfolio Projects -->
+            <div class="row">
+                <div class="span3">
+                    <!-- Filter -->
+                    <nav id="options" class="work-nav">
+                        <ul id="filters" class="option-set" data-option-key="filter">
+                            <li class="type-work">Type of Work</li>
+                            <li><a href="#filter" data-option-value="*" class="selected">All Projects</a></li>
+                            <li><a href="#filter" data-option-value=".week01">Week01</a></li>
+                            <li><a href="#filter" data-option-value=".week02">Week02</a></li>
+                            <li><a href="#filter" data-option-value=".week03">Week03</a></li>
+                            <li><a href="#filter" data-option-value=".week03">Week03</a></li>
+                            <li><a href="#filter" data-option-value=".week04">Week04</a></li>
+                            <li><a href="#filter" data-option-value=".week05">Week05</a></li>
+                            <li><a href="#filter" data-option-value=".week06">Week06</a></li>
+                            <li><a href="#filter" data-option-value=".week07">Week07</a></li>
+                            <li><a href="#filter" data-option-value=".week08">Week08</a></li>
+                            <li><a href="#filter" data-option-value=".week09">Week09</a></li>
+                            <li><a href="#filter" data-option-value=".week10">Week10</a></li>
+                            <li><a href="#filter" data-option-value=".week11">Week11</a></li>
+                            <li><a href="#filter" data-option-value=".week12">Week12</a></li>
+                            <li><a href="#filter" data-option-value=".week13">Week13</a></li>
+                            <li><a href="#filter" data-option-value=".week14">Week14</a></li>
+                            <li><a href="#filter" data-option-value=".week15">Week15</a></li>
+                            <li><a href="#filter" data-option-value=".week16">Week16</a></li>
+                            <li><a href="#filter" data-option-value=".week17">Week17</a></li>
+                            <li><a href="#filter" data-option-value=".week18">Week18</a></li>
+                            <li><a href="#filter" data-option-value=".finalproject">Final Project</a></li>
+
+                        </ul>
+                    </nav>
+                    <!-- End Filter -->
+                </div>
+
+                <div class="span9">
+                    <div class="row">
+                        <section id="projects">
+                            <ul id="thumbs">
+
+                                <!-- Item Project and Filter Name -->
+                                <li class="item-thumbs span3 week01">
+                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                    <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="week01" href="exercise01.html">
+                                        <span class="overlay-img"></span>
+                                    </a>
+                                    <!-- Thumb Image and Description -->
+                                    <img src="_include/img/work/thumbs/week01.jpg" alt="Webpage">
+                                    <h4>01-Principles and Practices/Project management </h4>
+                                </li>
+                                <!-- End Item Project -->
+                                <!-- Item Project and Filter Name -->
+                                <li class="item-thumbs span3 week02">
+                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                    <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Week02" href="exercise02.html">
+                                        <span class="overlay-img"></span>
+                                    </a>
+                                    <!-- Thumb Image and Description -->
+                                    <img src="_include/img/projects/week02/RhinoToInk.jpg" alt="Webpage">
+                                    <h4>02-Computer-Aided Design   </h4>
+                                </li>
+                                <!-- End Item Project -->
+                                <!-- Item Project and Filter Name -->
+                                <li class="item-thumbs span3 week03">
+                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                    <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Week03" href="exercise03.html">
+                                        <span class="overlay-img"></span>
+                                    </a>
+                                    <!-- Thumb Image and Description -->
+                                    <img src="_include/img/work/thumbs/week03.JPG" alt="Webpage">
+                                    <h4>03-Computer-Controlled Cutting  </h4>
+                                </li>
+                                <!-- End Item Project -->
+                                <!-- Item Project and Filter Name -->
+                                <li class="item-thumbs span3 week04">
+                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                    <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Week04" href="exercise04.html">
+                                        <span class="overlay-img"></span>
+                                    </a>
+                                    <!-- Thumb Image and Description -->
+                                    <img src="_include/img/projects/week04/SolderdBoard.jpg" alt="Webpage">
+                                    <h4>04-Electronics Production  </h4>
+                                </li>
+                                <!-- End Item Project -->
+                                <!-- Item Project and Filter Name -->
+                                <li class="item-thumbs span3 week05">
+                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                    <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Week05" href="exercise05.html">
+                                        <span class="overlay-img"></span>
+                                    </a>
+                                    <!-- Thumb Image and Description -->
+                                    <img src="_include/img/work/thumbs/week05.JPG" alt="Webpage">
+                                    <h4>05-3D Printing and Scanning</h4>
+                                </li>
+                                <!-- End Item Project -->
+                                <!-- Item Project and Filter Name -->
+                                <li class="item-thumbs span3 week06">
+                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                    <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Week01" href="exercise06.html">
+                                        <span class="overlay-img"></span>
+                                    </a>
+                                    <!-- Thumb Image and Description -->
+                                    <img src="_include/img/work/thumbs/week6.JPG" alt="Webpage">
+                                    <h4>06-Electronics Design  </h4>
+                                </li>
+                                <!-- End Item Project -->
+                                <!-- Item Project and Filter Name -->
+                                <li class="item-thumbs span3 week07">
+                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                    <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Week01" href="exercise07.html">
+                                        <span class="overlay-img"></span>
+                                    </a>
+                                    <!-- Thumb Image and Description -->
+                                    <img src="_include/img/work/thumbs/week7.jpg" alt="Webpage">
+                                    <h4>07-Computer-Controlled Machining  </h4>
+                                </li>
+                                <!-- End Item Project -->
+                                <!-- Item Project and Filter Name -->
+                                <li class="item-thumbs span3 week08">
+                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                    <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Week08 - Embedded Programming" href="exercise08.html">
+                                        <span class="overlay-img"></span>
+                                    </a>
+                                    <!-- Thumb Image and Description -->
+                                    <img src="_include/img/projects/week08/P1110959.JPG" alt="Webpage">
+                                    <h4>08-Embedded Programming </h4>
+                                </li>
+                                <!-- End Item Project -->
+                                <!-- Item Project and Filter Name -->
+                                <li class="item-thumbs span3 week09">
+                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                    <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Week01" href="exercise10.html">
+                                        <span class="overlay-img"></span>
+                                    </a>
+                                    <!-- Thumb Image and Description -->
+                                    <img src="_include/img/projects/week09/Render.jpg" alt="Webpage">
+                                    <h4>09 and 10-Mechanical Design/Machine Design  </h4>
+                                </li>
+                                <!-- End Item Project -->
+                                <!-- Item Project and Filter Name -->
+                                <li class="item-thumbs span3 week11">
+                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                    <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Week01" href="exercise11.html">
+                                        <span class="overlay-img"></span>
+                                    </a>
+                                    <!-- Thumb Image and Description -->
+                                    <img src="_include/img/projects/week11/1.png" alt="Webpage">
+                                    <h4>11-Input Devices </h4>
+                                </li>
+                                <!-- End Item Project -->
+                                <!-- Item Project and Filter Name -->
+                                <li class="item-thumbs span3 week12">
+                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                    <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Week01" href="exercise12.html">
+                                        <span class="overlay-img"></span>
+                                    </a>
+                                    <!-- Thumb Image and Description -->
+                                    <img src="_include/img/projects/week12/13.jpg" alt="Webpage">
+                                    <h4>12-Molding and Casting  </h4>
+                                </li>
+                                <!-- End Item Project -->
+                                <!-- Item Project and Filter Name -->
+                                <li class="item-thumbs span3 week13">
+                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                    <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Week01" href="exercise13.html">
+                                        <span class="overlay-img"></span>
+                                    </a>
+                                    <!-- Thumb Image and Description -->
+                                    <img src="_include/img/projects/week13/16.JPG" alt="Webpage">
+                                    <h4>13-Output Devices  </h4>
+                                </li>
+                                <!-- End Item Project -->
+                                <!-- Item Project and Filter Name -->
+                                <li class="item-thumbs span3 week14">
+                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                    <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Week01" href="exercise14.html">
+                                        <span class="overlay-img"></span>
+                                    </a>
+                                    <!-- Thumb Image and Description -->
+                                    <img src="_include/img/work/thumbs/palmbitch.jpg" alt="Webpage">
+                                    <h4>14-Composites  </h4>
+                                </li>
+                                <!-- End Item Project -->
+                                <!-- Item Project and Filter Name -->
+                                <li class="item-thumbs span3 week15">
+                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                    <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Week01" href="exercise15.html">
+                                        <span class="overlay-img"></span>
+                                    </a>
+                                    <!-- Thumb Image and Description -->
+                                    <img src="_include/img/projects/week15/3.jpg" alt="Webpage">
+                                    <h4>15-Networking and Communications   </h4>
+                                </li>
+                                <!-- End Item Project -->
+                                <!-- Item Project and Filter Name -->
+                                <li class="item-thumbs span3 week16">
+                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                    <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Week01" href="exercise16.html">
+                                        <span class="overlay-img"></span>
+                                    </a>
+                                    <!-- Thumb Image and Description -->
+                                    <img src="_include/img/projects/week16/2.JPG" alt="Webpage">
+                                    <h4>16-Interface and Application Programming</h4>
+                                </li>
+                                <!-- End Item Project -->
+                                <!-- Item Project and Filter Name -->
+                                <li class="item-thumbs span3 week17">
+                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                    <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Week01" href="exercise17.html">
+                                        <span class="overlay-img"></span>
+                                    </a>
+                                    <!-- Thumb Image and Description -->
+                                    <img src="_include/img/projects/Final/Open-source-hardware-logo.svg.png" alt="Webpage">
+                                    <h4>17-Applications and Implications  </h4>
+                                </li>
+                                <!-- End Item Project -->
+                                <!-- Item Project and Filter Name -->
+                                <li class="item-thumbs span3 week18">
+                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                    <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Week01" href="exercise18.html">
+                                        <span class="overlay-img"></span>
+                                    </a>
+                                    <!-- Thumb Image and Description -->
+                                    <img src="_include/img/projects/Final/2015-02-20-PatentProtection-thumb.jpg" alt="Webpage">
+                                    <h4>18-Invention, Intellectual Property, and Income  </h4>
+                                </li>
+                                <!-- End Item Project -->
+                                <!-- Item Project and Filter Name -->
+                                <li class="item-thumbs span3 finalproject">
+                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                    <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Week01" href="FinalProject.html">
+                                        <span class="overlay-img"></span>
+                                    </a>
+                                    <!-- Thumb Image and Description -->
+                                    <img src="_include/img/projects/Final/IMG_20160620_170313.jpg" alt="Webpage">
+                                    <h4>Final Project </h4>
+                                </li>
+                                <!-- End Item Project -->
+                            </ul>
+                        </section>
+
+                    </div>
+                </div>
+            </div>
+            <!-- End Portfolio Projects -->
+        </div>
+    </div>
+    <!-- End Our Work Section -->
+    <!-- Contact Section -->
+    <div id="contact" class="page">
+        <div class="container">
+            <!-- Title Page -->
+            <div class="row">
+                <div class="span12">
+                </div>
+            </div>
+            <!-- End Title Page -->
+            <div class="span3">
+                <div class="contact-details">
+                    <h3>Contact Details</h3>
+                    <ul>
+                        <li><a href="#">jmleao93@gmail.com</a></li>
+                        <li>(+351) 936322704</li>
+                        <li>
+                            João Leão
+                            <br>
+                            Porto, Portugal
+                            <br>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- End Contact Form -->
+        <!-- End Contact Section -->
+        <!-- Socialize -->
+        <div id="social-area" class="page">
+            <div class="container">
+                <div class="row">
+                    <div class="span12">
+                        <nav id="social">
+                            <ul>
+                                <li><a href="https://www.facebook.com/profile.php?id=1095003853" title="Follow Me on Facebook" target="_blank"><span class="font-icon-social-facebook"></span></a></li>
+                                <li><a href="https://plus.google.com/111204088721306584025/posts" title="Follow Me on Google Plus" target="_blank"><span class="font-icon-social-google-plus"></span></a></li>
+                                <li><a href=https://www.linkedin.com/in/jo%C3%A3o-le%C3%A3o-22a61188?trk =nav_responsive_tab_profile_pic" title="Follow Me on LinkedIn" target="_blank"><span class="font-icon-social-linkedin"></span></a></li>
+
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Socialize -->
+        <!-- Footer -->
+        <footer></footer>
+        <!-- End Footer -->
+        <!-- Back To Top -->
+        <a id="back-to-top" href="#">
+            <i class="font-icon-arrow-simple-up"></i>
+        </a>
+        <!-- End Back to Top -->
+        <!-- Js -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> <!-- jQuery Core -->
+        <script src="_include/js/bootstrap.min.js"></script> <!-- Bootstrap -->
+        <script src="_include/js/supersized.3.2.7.min.js"></script> <!-- Slider -->
+        <script src="_include/js/waypoints.js"></script> <!-- WayPoints -->
+        <script src="_include/js/waypoints-sticky.js"></script> <!-- Waypoints for Header -->
+        <script src="_include/js/jquery.isotope.js"></script> <!-- Isotope Filter -->
+        <script src="_include/js/jquery.fancybox.pack.js"></script> <!-- Fancybox -->
+        <script src="_include/js/jquery.fancybox-media.js"></script> <!-- Fancybox for Media -->
+        <script src="_include/js/jquery.tweet.js"></script> <!-- Tweet -->
+        <script src="_include/js/plugins.js"></script> <!-- Contains: jPreloader, jQuery Easing, jQuery ScrollTo, jQuery One Page Navi -->
+        <script src="_include/js/main.js"></script> <!-- Default JS -->
+        <!-- End Js -->
+</body>
+</html>
