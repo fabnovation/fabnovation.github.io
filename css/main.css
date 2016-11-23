@@ -1117,7 +1117,6 @@ nav#menu #menu-nav li a:hover {
 
 #social-area {
     text-align: center;
-	
 }
 
 #social-area #social ul {
@@ -1136,7 +1135,7 @@ nav#menu #menu-nav li a:hover {
 	margin-left: 0;
 }
 
-#social ul li a {
+#social a {
 	display: block;
 	width: 70px;
 	height: 70px;
