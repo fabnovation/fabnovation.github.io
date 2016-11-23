@@ -1140,7 +1140,7 @@ nav#menu #menu-nav li a:hover {
 	width: 70px;
 	height: 70px;
 
-	background: #000000;
+	background: #4a4a4a;
 	
 	-webkit-transition: all 400ms ease-out 0s;	
 	   -moz-transition: all 400ms ease-out 0s;
@@ -1161,7 +1161,7 @@ nav#menu #menu-nav li a:hover {
 	font-size: 32px;
 	line-height: 70px;
 	
-	opacity: 1;
+	opacity: 0.3;
 	filter: alpha(opacity=30);
 	
 	-webkit-transition: all 400ms ease-out 0s;	
