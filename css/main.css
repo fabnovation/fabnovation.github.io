@@ -583,6 +583,7 @@ header #logo a:hover {
 nav#menu {
 	float: right;
 	margin-right: 20px;
+	
 }
 
 nav#menu #menu-nav {
@@ -674,6 +675,7 @@ nav#menu #menu-nav li a:hover {
 }
 
 #navigation-mobile li a{
+	color: dodgerblue;
 	display: block;
 	font-size: 16px;
 	text-transform: uppercase;
@@ -1135,8 +1137,8 @@ nav#menu #menu-nav li a:hover {
 	margin-left: 0;
 }
 
-#social a {
-	display: block;
+#social ul li a {
+	display: inline-block;
 	width: 70px;
 	height: 70px;
 
