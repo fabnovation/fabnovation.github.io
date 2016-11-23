@@ -1136,7 +1136,7 @@ nav#menu #menu-nav li a:hover {
 	margin-left: 0;
 }
 
-#social a {
+#social ul li a {
 	display: block;
 	width: 70px;
 	height: 70px;
