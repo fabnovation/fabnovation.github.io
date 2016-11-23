@@ -1102,6 +1102,7 @@ nav#menu #menu-nav li a:hover {
 }
 
 #ticker .tweet_list .tweet_time a {
+	
 	color: #ffffff;
 	font-size: 14px;
 	font-style: italic;
@@ -1121,27 +1122,24 @@ nav#menu #menu-nav li a:hover {
     text-align: center;
 }
 
-#social-area #social ul {
+#social-area ul {
 	margin: 0;
 	padding: 0;
 }
 
-#social-area #social ul li {
+#social-area ul li {
 	display: inline-block;
 	margin-left: 30px;
 	list-style: none;
 	cursor: pointer;
 }
 
-#social-area #social ul li:first-child {
-	margin-left: 0;
-	
-}
 
-#social ul li a {
+.social ul li a {
 	display: block;
 	width: 70px;
 	height: 70px;
+	
 	background: #4a4a4a;
 
 	
@@ -1157,7 +1155,7 @@ nav#menu #menu-nav li a:hover {
 			transform: rotateY(180deg);
 }
 
-#social ul li a span {
+.social ul li a span {
 	display: inline-block;
 	margin: 0;
 	color: #FFFFFF;
@@ -1179,8 +1177,8 @@ nav#menu #menu-nav li a:hover {
 			transform: rotateY(180deg);
 }
 
-#social ul li:hover a,
-#social ul li.active a {
+.social ul li:hover a,
+.social li.active a {
 	background-color: dodgerblue;	
 	
 	-webkit-transform: rotateY(0deg);
@@ -1190,8 +1188,8 @@ nav#menu #menu-nav li a:hover {
 		    transform: rotateY(0deg);
 }
 
-#social ul li:hover a span,
-#social ul li.active a span {
+.social ul li:hover a span,
+.social ul li.active a span {
 	color: #FFFFFF;
 	opacity: 1;
 	filter: alpha(opacity=100);
