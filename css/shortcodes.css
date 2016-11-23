@@ -616,7 +616,7 @@ blockquote small:before {
 
 
 .icons-example ul li.active a span {
-	color: #FFFFFF;
+	color: #000000;
 	opacity: 1;
 	filter: alpha(opacity=100);
 	
