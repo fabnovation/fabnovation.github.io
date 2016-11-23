@@ -1135,10 +1135,11 @@ nav#menu #menu-nav li a:hover {
 
 #social-area #social ul li:first-child {
 	margin-left: 0;
+	
 }
 
 #social ul li a {
-	display: inline-block;
+	display: block;
 	width: 70px;
 	height: 70px;
 
@@ -1159,7 +1160,7 @@ nav#menu #menu-nav li a:hover {
 #social ul li a span {
 	display: inline-block;
 	margin: 0;
-	color: #FFFFFF;
+	color: #000000;
 	font-size: 32px;
 	line-height: 70px;
 	
