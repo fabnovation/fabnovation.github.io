@@ -1135,7 +1135,7 @@ nav#menu #menu-nav li a:hover {
 }
 
 
-.social ul li a {
+#social ul li a {
 	display: block;
 	width: 70px;
 	height: 70px;
@@ -1155,7 +1155,7 @@ nav#menu #menu-nav li a:hover {
 			transform: rotateY(180deg);
 }
 
-.social ul li a span {
+#social ul li a span {
 	display: inline-block;
 	margin: 0;
 	color: #FFFFFF;
@@ -1177,8 +1177,8 @@ nav#menu #menu-nav li a:hover {
 			transform: rotateY(180deg);
 }
 
-.social ul li:hover a,
-.social li.active a {
+#social ul li:hover a,
+#social li.active a {
 	background-color: dodgerblue;	
 	
 	-webkit-transform: rotateY(0deg);
@@ -1188,8 +1188,8 @@ nav#menu #menu-nav li a:hover {
 		    transform: rotateY(0deg);
 }
 
-.social ul li:hover a span,
-.social ul li.active a span {
+#social ul li:hover a span,
+#social ul li.active a span {
 	color: #FFFFFF;
 	opacity: 1;
 	filter: alpha(opacity=100);
