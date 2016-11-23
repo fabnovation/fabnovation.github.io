@@ -1139,13 +1139,11 @@ nav#menu #menu-nav li a:hover {
 }
 
 #social ul li a {
-	display: inline-block;
+	display: block;
 	width: 70px;
 	height: 70px;
 	background: #4a4a4a;
-	
-	opacity: 1;
-	filter: alpha(opacity=30);
+
 	
 	-webkit-transition: all 400ms ease-out 0s;	
 	   -moz-transition: all 400ms ease-out 0s;
