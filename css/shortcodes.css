@@ -90,8 +90,8 @@
 	position: relative;
   	display: block;
   	padding: 15px;
-	background:#3C3F45;
-	color: #23262C;
+	background:#9C9C9C;
+	color: #4C4C4C;
 	font-size: 18px;
 	font-weight: 600;
 	text-transform: uppercase;
@@ -109,17 +109,17 @@
 
 .accordion-heading:hover .accordion-toggle,
 .accordion-heading:hover .accordion-toggle.inactive {
-	background:#DE5E60;
+	background:dodgerblue;
 	color:#FFFFFF;
 }
 
 .accordion-heading .accordion-toggle.active {
-	background:#DE5E60;
+	background:dodgerblue;
 	color:#FFFFFF;
 }
 
 .accordion-heading .accordion-toggle.inactive {
-	background:#3C3F45;
+	background:#6C6C6C;
 }
 
 .accordion-heading.accordionize .accordion-toggle span,
@@ -128,7 +128,7 @@
     top: 50%;
     right: 20px;
     margin: -8px 0 0 0;
-    color: #23262C;
+    color: #8C8C8C;
     font-size: 18px;
 	
 	-webkit-transition: all 0.1s linear 0s;
@@ -172,8 +172,8 @@
 }
 
 .accordion-inner {
-	background: #26292E;
-  	padding: 16px 20px;
+	background: #FFFFFF;
+  	padding: 0px 0px;
 	border: none;
 }
 
