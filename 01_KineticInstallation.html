@@ -126,13 +126,13 @@ body {
             </div>
             <nav id="menu">
                 <ul id="menu-nav">
-                    <li class="current"><a href="#home-slider"><span class="color-text">Home</span></a></li>
-                    <li><a href="#Intend"><span class="color-text">Intend</a></li>
-                    <li><a href="#Strategy"><span class="color-text">Strategy</span></a></li>
-                    <li><a href="#Development"><span class="color-text">Development</span></a></li>
-                    <li><a href="#Electronics"><span class="color-text">Electronics</span></a></li>
-                    <li><a href="#Install"><span class="color-text">Install</span></a></li>
-                    <li><a href="#Reflect"><span class="color-text">Reflect</span></a></li>
+                    <li class="current"><a href="#home-slider">Home</a></li>
+                    <li><a href="#Intend">Intend</a></li>
+                    <li><a href="#Strategy">Strategy</a></li>
+                    <li><a href="#Development">Development</a></li>
+                    <li><a href="#Electronics">Electronics</a></li>
+                    <li><a href="#Install">Install</a></li>
+                    <li><a href="#Reflect">Reflect</a></li>
 
               </ul>
           </nav>
@@ -663,9 +663,26 @@ for driving servo via input from photo sensor.
 It is currently able to complete compilation and even successfully send 
 to ATtiny 44 but there were no reactions from the servo. 
 
+<br><br>
+       <!-- Start Accordion/Toggle Section -->
+        <div class="row">
+        
+        	<div class="span12">
+ <!--           	<h3 class="spec">Attempt 01</h3>   -->
+                
+            	<!-- Start Toogle -->
+        		<div class="accordion" id="toogleArea">
+                    <div class="accordion-group">
+                        <div class="accordion-heading accordionize">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#" href="#collapseOne">
+                                C Code (Unsuccessful)
+                                <span class="font-icon-arrow-simple-down"></span>
+                            </a>
+                        </div>
+                        <div id="collapseOne" class="accordion-body collapse">
+                            <div class="accordion-inner">
 
-<pre class="prettyprint linenums">
-
+<pre class="prettyprint linenums">                
 // hello.reflect.servo.44.2.c
 //
 // light reflection synchronous detection hello-world
@@ -930,11 +947,17 @@ int main(void) {
       put_char(&serial_port, serial_pin_out, ((off >> 8) & 255));
       char_delay();
       }
+      </pre>
+      
+      
+            </div>
+        </div>
+    </div>
 
-</pre>
+<!-- End Accordian -->
 
-
-<p>
+           
+<br><br><br>
 <h5> <b>Attempt 02</b></h5>
 <h5>Bit Banging</h5>
 
@@ -948,11 +971,27 @@ The codes were able to compiled and send and 1 set of servo and sensor was able 
 However, the second set of servo and sensor were unreponsive due to the pin errors. 
 <br>
 <br>
-<h5>Arduino code (successful)</h5>
 
 
-<pre class="prettyprint linenums">
 
+        <!-- Start Accordion/Toggle Section -->
+        <div class="row">
+        
+        	<div class="span12">
+       <!--     	<h3 class="spec">Accordion</h3>  -->
+                
+            	<!-- Start Accordion -->
+        		<div class="accordion" id="accordionArea">
+                    <div class="accordion-group">
+                        <div class="accordion-heading accordionize">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionArea" href="#oneArea">
+                                Arduino (Successful)
+                                <span class="font-icon-arrow-simple-down"></span>
+                            </a>
+                        </div>
+                        <div id="oneArea" class="accordion-body collapse">
+                            <div class="accordion-inner">
+<pre class="prettyprint linenums">       
 /*
 Juan Pablo Gutierrez Salazar Attiny code for servo controlling with help from Daniel Pineda.
 based on https://github.com/Jan--Henrik/Attiny-PWM-generator/blob/master/Final%20code
@@ -983,13 +1022,24 @@ void loop(){
 }
 </pre>
 
-<br>
-<br>
-<h5>Bit Banging code </h5>(successful but needs further tweaking to allow full range for the servos)
+      
+      
+            </div>
+        </div>
+    </div>
 
 
-<pre class="prettyprint linenums">
+                    <div class="accordion-group">
+                        <div class="accordion-heading accordionize">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionArea" href="#TwoArea">
+                                Bit Banging (Successful)
+                                <span class="font-icon-arrow-simple-down"></span>
+                            </a>
+                        </div>
+                        <div id="TwoArea" class="accordion-body collapse">
+                            <div class="accordion-inner">
 
+<pre class="prettyprint linenums">       
 #include <SoftwareSerial.h>
 
 SoftwareSerial mySerial(0, 1);  // RX, TX pins
@@ -1049,10 +1099,17 @@ void loop() {
   //delay(1000);
 }
 </pre>
+      
+      
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Toggle -->
 
 
 
-<p>
+<br><br><br>
 <h3>5. GUI with Rhino Grasshopper Firefly</h3>
 <p> 
 Grasshopper_firefly file: <a href="http://archive.fabacademy.org/archives/2016/fablabsingapore/students/157/media//wfp/Hello.reflect.servo.serial_monitor.gh"><span class="color-text">Download</span></a>
