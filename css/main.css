@@ -556,7 +556,7 @@ header .sticky-nav.stuck {
 }
 
 header #logo {
-	color: #FFFFFF;
+	color: #9C9C9C;
 	float: left;
 	height: 60px
 
@@ -990,6 +990,7 @@ nav#menu #menu-nav li a:hover {
 }
 
 .contact-details ul {
+	color: #9C9C9C;
 	margin: 0;
 	padding: 0;
 	list-style: none;	
