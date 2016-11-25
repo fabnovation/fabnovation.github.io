@@ -698,7 +698,7 @@ to ATtiny 44 but there were no reactions from the servo.
        <!-- Start Accordion/Toggle Section -->
         <div class="row">
         
-        	<div class="span12">
+        	<div class="span4">
  <!--           	<h3 class="spec">Attempt 01</h3>   -->
                 
             	<!-- Start Toogle -->
@@ -710,8 +710,9 @@ to ATtiny 44 but there were no reactions from the servo.
                                 <span class="font-icon-arrow-simple-down"></span>
                             </a>
                         </div>
+                        <div class="span10">
                         <div id="collapseOne" class="accordion-body collapse">
-                            <div class="accordion-inner">
+                            <div class="accordion-inner"></div>
 
 <pre class="prettyprint linenums">                
 // hello.reflect.servo.44.2.c
@@ -979,7 +980,7 @@ int main(void) {
       char_delay();
       }
       </pre>
-      
+         
       
             </div>
         </div>
@@ -987,8 +988,11 @@ int main(void) {
 
 <!-- End Accordian -->
 
+
+        <div class="row">
+        	<div class="span12">
+<br><br>
            
-<br><br><br>
 <h5> <b>Attempt 02</b></h5>
 <h5>Bit Banging</h5>
 
@@ -1000,6 +1004,7 @@ Before attempting bit banging with the help of <a href="http://archive.fabacadem
 following arduino code from <a href="http://fabacademy.org/archives/2015/sa/students/gutierrez.juan/w10.html"><span class="color-text">Juan Gutierrez </span></a>.
 The codes were able to compiled and send and 1 set of servo and sensor was able to work. 
 However, the second set of servo and sensor were unreponsive due to the pin errors. 
+
 <br>
 <br>
 
@@ -1008,21 +1013,23 @@ However, the second set of servo and sensor were unreponsive due to the pin erro
         <!-- Start Accordion/Toggle Section -->
         <div class="row">
         
-        	<div class="span12">
-       <!--     	<h3 class="spec">Accordion</h3>  -->
+        	<div class="span4">
+ <!--           	<h3 class="spec">Attempt 01</h3>   -->
                 
-            	<!-- Start Accordion -->
-        		<div class="accordion" id="accordionArea">
+            	<!-- Start Toogle -->
+        		<div class="accordion" id="toogleArea">
                     <div class="accordion-group">
                         <div class="accordion-heading accordionize">
-                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionArea" href="#oneArea">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#" href="#collapseTwo">
                                 Arduino (Successful)
                                 <span class="font-icon-arrow-simple-down"></span>
                             </a>
                         </div>
-                        <div id="oneArea" class="accordion-body collapse">
-                            <div class="accordion-inner">
-<pre class="prettyprint linenums">       
+                        <div class="span10">
+                        <div id="collapseTwo" class="accordion-body collapse">
+                            <div class="accordion-inner"></div>
+                           
+<pre class="prettyprint linenums">     
 /*
 Juan Pablo Gutierrez Salazar Attiny code for servo controlling with help from Daniel Pineda.
 based on https://github.com/Jan--Henrik/Attiny-PWM-generator/blob/master/Final%20code
@@ -1053,22 +1060,30 @@ void loop(){
 }
 </pre>
 
-      
-      
+
             </div>
         </div>
     </div>
+        <!-- Start Accordion/Toggle Section -->
+        <div class="row">
+        
+        	<div class="span4">
+ <!--           	<h3 class="spec">Attempt 01</h3>   -->
+                
+            	<!-- Start Toogle -->
+        		<div class="accordion" id="toogleArea">
 
 
                     <div class="accordion-group">
                         <div class="accordion-heading accordionize">
-                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionArea" href="#TwoArea">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#" href="#collapseThree">
                                 Bit Banging (Successful)
                                 <span class="font-icon-arrow-simple-down"></span>
                             </a>
                         </div>
-                        <div id="TwoArea" class="accordion-body collapse">
-                            <div class="accordion-inner">
+                        <div class="span10">
+                        <div id="collapseThree" class="accordion-body collapse">
+                            <div class="accordion-inner"></div>
 
 <pre class="prettyprint linenums">       
 #include <SoftwareSerial.h>
@@ -1131,7 +1146,7 @@ void loop() {
 }
 </pre>
       
-      
+      </div>
             </div>
         </div>
     </div>
@@ -1144,7 +1159,11 @@ void loop() {
             	<hr>
             </div>	
         </div>
-
+        <!-- End Information Block -->
+        
+        <div class="row">
+        	<div class="span12">
+<br><br>
 
 
 <h3>5. GUI with Rhino Grasshopper Firefly</h3>

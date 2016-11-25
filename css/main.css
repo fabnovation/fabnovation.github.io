@@ -228,8 +228,8 @@ h4,
 h5,
 h6{
 	margin:0 0 10px 0;
-	color:#000000;
-	font-weight:300;
+	color:#FFFFFF;
+	font-weight:100;
 	font-family: 'Titillium Web', sans-serif;
 	line-height:1.5em;
 }
@@ -243,8 +243,10 @@ h2{
 }
 
 h3{
-	font-size:24px;
-	word-spacing:5px
+	font-size:20px;
+	letter-spacing:-1px;
+	word-spacing:5px;
+	
 }
 
 h4{
@@ -263,6 +265,7 @@ h7{
 	font-size:12px;
 	color: #7C7C7C;
 }
+
 h1.spec {
 	color: #000000;
     font-size: 48px;
@@ -337,8 +340,8 @@ h3.spec {
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	background: #ffffff;
-	opacity: 0.7;
+	background: #2A2A2A;
+	opacity: 0.8;
 	filter: alpha(opacity=70);
 	z-index: 0;
 	
@@ -382,7 +385,7 @@ h3.spec {
 
 #home-slider .slide-content {
 	font-size: 60px;
-	color: #000000;
+	color: #FFFFFF;
 	letter-spacing: -3px;
 	text-transform: uppercase;	
    }
@@ -401,7 +404,7 @@ h3.spec {
 #home-slider #nextslide,
 #home-slider #prevslide {
 	background-image: none;
-	background-color: #4C4C4C;
+	background-color: #2C2C2C;
 	display: inline-block;
 	margin: 0;
 	position: relative;
@@ -491,7 +494,7 @@ h3.spec {
 }
 
 #home-slider #nextsection {
-	background-color: #4C4C4C;
+	background-color: #2C2C2C;
 	margin: 0;
 	position: relative;
 	float:right;
@@ -688,7 +691,7 @@ nav#menu #menu-nav li a:hover {
 ================================================== */
 
 .page {
-	background: #ffffff;
+	background: #3C3C3C;
     background-size: cover;
 	padding: 100px 0;
 	position: relative;
@@ -706,7 +709,7 @@ nav#menu #menu-nav li a:hover {
 
 
 .page-alternate {
-	background: #4C4C4C;
+	background: #2A2A2A;
 	padding: 100px 0;
 	position: relative;
 	z-index: 99;
@@ -719,7 +722,7 @@ nav#menu #menu-nav li a:hover {
 
 .title-page .title1 {
 	font-size: 48px;
-	color:#000000
+	color:#2A2A2A
 }
 
 .title-page .title2 {
@@ -731,6 +734,7 @@ nav#menu #menu-nav li a:hover {
 	font-size: 24px;
 	font-weight: 200;
 	margin: 0;
+	
 }
 
 /* ==================================================
@@ -861,7 +865,9 @@ nav#menu #menu-nav li a:hover {
 }
 
 .profile-description {
-	margin-bottom: 25px;	
+	margin-bottom: 25px;
+	color: #9E9E9E
+	
 }
 
 .image-wrap {
@@ -950,7 +956,7 @@ nav#menu #menu-nav li a:hover {
 }
 
 .social-icons li a{
-	color: #000000;
+	color: #FFFFFF;
 	font-size: 16px;
 	line-height: 1em;
 	width: 16px;
@@ -975,7 +981,7 @@ nav#menu #menu-nav li a:hover {
 ================================================== */
 
 .contact-details h3 {
-	color: #000000;
+	color: #9C9C9C;
     font-size: 24px;
     font-weight: 300;
     margin-bottom: 30px;
@@ -1228,7 +1234,7 @@ footer .credits {
 
 #back-to-top {
 	display: none;
-	background-color: #6C6C6C;
+	background-color: #2C2C2C;
 	margin: 0;
 	position: fixed;
 	bottom: 0;
