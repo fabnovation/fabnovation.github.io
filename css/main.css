@@ -273,7 +273,7 @@ h1.spec {
 
 }
 h3.spec {
-	color: #000000;
+	color: #6C6C6C;
     font-size: 24px;
     font-weight: 300;
     line-height: 1em;
@@ -704,9 +704,6 @@ nav#menu #menu-nav li a:hover {
     padding-right: 50px;
     margin-top: 0px;
 }
-
-
-
 
 .page-alternate {
 	background: #2A2A2A;
@@ -1222,10 +1219,10 @@ footer {
 }
 
 footer .credits {
-	color: #4a4a4a;
+	color: #9C9C9C;
 	font-size: 13px;
-	margin-bottom: 0;
-	padding: 20px 0;
+	margin-bottom:  0;
+	padding: 0px 0;
 	text-transform: uppercase;	
 }
 
