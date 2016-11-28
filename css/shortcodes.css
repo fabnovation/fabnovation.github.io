@@ -527,8 +527,9 @@ blockquote small:before {
 .video-container embed {
 	position: absolute;
 	top: 0;
-	width: 90%;
-	height: 80%;
+	align: middle;
+	width: 100%;
+	height: 90%;
 	border: none;
 	
 }
