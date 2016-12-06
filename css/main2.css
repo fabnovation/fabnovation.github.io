@@ -35,9 +35,12 @@ body{
 /*Image center*/
 .pic{
     margin: auto;
-    width: 75%;
-    padding: 5px;
+    width: 50%;
+	padding-top: 30px;
+    padding-bottom: 350px;
+	
 }
+
 a{
 	color:rgb(0, 235, 255);
 	text-decoration: none;
@@ -89,10 +92,10 @@ hr {
 .text_align{
     margin-left: 0px;
     border-left-width: 10px;
-    padding-left: 50px;
+    padding-left: 40px;
     border-right-width: 10px;
     margin-right: 0px;
-    padding-right: 50px;
+    padding-right: 40px;
     margin-top: 0px;
 }
 .align_left{
@@ -236,6 +239,13 @@ h6{
 	font-family: 'Titillium Web', sans-serif;
 	line-height:1.5em;
 }
+h3a{
+	margin:0 0 10px 0;
+	color:#FFFFFF;
+	font-weight:300;
+	font-family: 'Titillium Web', sans-serif;
+	line-height:1.5em;
+}
 
 h1{
 	font-size:48px;
@@ -246,6 +256,10 @@ h2{
 }
 
 h3{
+	font-size:24px;
+	word-spacing:5px
+}
+h3a{
 	font-size:24px;
 	word-spacing:5px
 }
@@ -703,6 +717,20 @@ nav#menu #menu-nav li a:hover {
     margin-top: 0px;
 }
 
+.page2 {
+	background: #4C4C4C;
+    background-size: cover;
+	padding: 100px 0;
+	position: relative;
+	z-index: 99;
+ margin-left: 0px;
+    border-left-width: 10px;
+    padding-left: 50px;
+    border-right-width: 10px;
+    margin-right: 0px;
+    padding-right: 50px;
+    margin-top: 0px;
+}
 
 
 .page-alternate {
@@ -862,6 +890,10 @@ nav#menu #menu-nav li a:hover {
 
 .profile-description {
 	margin-bottom: 25px;	
+}
+.profile-description2 {
+	margin-bottom: 25px;
+	color: #BBBBBB;	
 }
 
 .image-wrap {
