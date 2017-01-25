@@ -98,10 +98,10 @@ hr {
 .text_align{
     margin-left: 0px;
     border-left-width: 10px;
-    padding-left: 40px;
+    padding-left: 49px;
     border-right-width: 10px;
     margin-right: 0px;
-    padding-right: 40px;
+    padding-right: 49px;
     margin-top: 0px;
 }
 .align_left{
@@ -211,7 +211,7 @@ pre {
   	word-wrap: break-word;
   	word-break: break-all;
   	font-size: 12px;
-  	line-height: 20px;
+  	line-height: 22px;
     text-align: justify;
 }
 
@@ -245,7 +245,8 @@ h6{
 	font-family: 'Titillium Web', sans-serif;
 	line-height:1.5em;
 }
-h3a{
+h3a,
+h4a{
 	margin:0 0 10px 0;
 	color:#FFFFFF;
 	font-weight:300;
@@ -271,6 +272,10 @@ h3a{
 }
 
 h4{
+	
+	font-size:20px;
+}
+h4a{
 	
 	font-size:20px;
 }
@@ -710,32 +715,16 @@ nav#menu #menu-nav li a:hover {
 
 .page {
 	background: #ffffff;
-    background-size: cover;
 	padding: 100px 0;
 	position: relative;
 	z-index: 99;
- margin-left: 0px;
-    border-left-width: 10px;
-    padding-left: 50px;
-    border-right-width: 10px;
-    margin-right: 0px;
-    padding-right: 50px;
-    margin-top: 0px;
 }
 
 .page2 {
 	background: #4C4C4C;
-    background-size: cover;
 	padding: 100px 0;
 	position: relative;
 	z-index: 99;
- margin-left: 0px;
-    border-left-width: 10px;
-    padding-left: 50px;
-    border-right-width: 10px;
-    margin-right: 0px;
-    padding-right: 50px;
-    margin-top: 0px;
 }
 
 
@@ -905,7 +894,7 @@ nav#menu #menu-nav li a:hover {
 .image-wrap {
 	position: relative;
 	overflow: hidden;
-	margin-bottom: 25px;
+	margin-bottom: 5px;
 	cursor: pointer;
 }
 
@@ -980,9 +969,9 @@ nav#menu #menu-nav li a:hover {
 	top: 50%;
 	margin: -25px 0 0 0;
 	color: #FFFFFF;
-	font-size: 18px;
+	font-size: 14px;
 	font-weight: 300;
-	line-height: 22px;
+	line-height: 20px;
 	/*text-transform: uppercase;*/
 	text-align: center;
 	
