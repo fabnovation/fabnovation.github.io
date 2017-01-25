@@ -702,7 +702,8 @@ nav#menu #menu-nav li a:hover {
 }
 
 #navigation-mobile li a{
-	display: dodgerblue;
+	color: dodgerblue;
+	display: block;
 	font-size: 16px;
 	text-transform: uppercase;
 	padding: 20px 0;
