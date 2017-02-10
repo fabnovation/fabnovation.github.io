@@ -68,8 +68,11 @@ a > img {
 img {
 	max-width: 100%;
     height: auto;	
-}
-
+}  
+img2 {
+	max-width: 100%;
+    height: auto;	
+} 
 strong {
   	font-weight: 500;
 }
@@ -241,6 +244,29 @@ h1{
 h2{
 	font-size:36px;
 }
+h2a{
+	position: absolute;
+	color:#FFFFFF;
+	font-weight:200;
+	font-family: 'Titillium Web', sans-serif;
+	line-height:1.5em;
+	font-size:42px;
+	top: 200px;
+	left: 0;
+	width: 100%;
+}
+h2b{
+	position: absolute;
+	color:#FFFFFF;
+	font-weight:300;
+	font-family: 'Titillium Web', sans-serif;
+	line-height:1.5em;
+	font-size:18px;
+	top: 255px;
+	left: 0;
+	width: 100%;
+}
+
 
 h3{
 	font-size:20px;
@@ -704,7 +730,11 @@ nav#menu #menu-nav li a:hover {
     padding-right: 50px;
     margin-top: 0px;
 }
-
+.page2 {
+	background: #3C3C3C;
+	position: relative;
+	height: 140%;
+}
 .page-alternate {
 	background: #2A2A2A;
 	padding: 100px 0;
