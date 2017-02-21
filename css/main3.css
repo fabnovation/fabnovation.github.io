@@ -1522,3 +1522,14 @@ footer .credits {
 .clearfix{
     clear:both
 }
+
+
+/* Comment Box styles: http://www.htmlcommentbox.com/css-guide.html  */
+  
+#HCB_comment_box {
+    color:#b4b4b4;
+  }
+#HCB_comment_box h3{
+    color:#FFFFFF;
+  }
+  
