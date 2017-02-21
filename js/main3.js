@@ -81,7 +81,7 @@ BRUSHED.slider = function(){
 //Below script inserts home slider images and titles + captions. Inserted span class to amend color of caption text. Color of large text can be amended at main2.js at line 383.
 											
 											{image : 'img/slider-images/00 Blank.jpg', title : '<div class="slide-content"><h3><span class="color-text">Music</span></h3> </div>', thumb : '', url : ''},
-											{image : 'img/slider-images/00 Logo.jpg', title : '<div class="slide-content"><h3><span class="color-text">Coming Soon!</span></h3> </div>', thumb : '', url : ''},
+											{image : 'img/slider-images/00 Logo.jpg', title : '<div class="slide-content"><h3><span class="color-text">Music</span></h3> </div>', thumb : '', url : ''},
 											{image : 'img/slider-images/00 Blank.jpg', title : '<div class="slide-content">FABNOVATION<h3><span class="color-text"></span></h3> </div>', thumb : '', url : ''},
 //											{image : 'img/slider-images/03 Origami.jpg', title : '<div class="slide-content">Fabnovation<h3>innovation begins by making</h3> </div>', thumb : '', url : ''},
 //											{image : 'img/slider-images/04 Laser Cutting.jpg', title : '<div class="slide-content">Fabnovation<h3>innovation begins by making</h3> </div>', thumb : '', url : ''} ,
@@ -203,7 +203,7 @@ BRUSHED.contactForm = function(){
 		
 		$.ajax({
 			type: "POST",
-			url: "php/contact.php",
+			url: "_include/php/contact.php",
 			data: fields,
 			dataType: 'json',
 			success: function(response) {
