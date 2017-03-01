@@ -734,6 +734,7 @@ nav#menu #menu-nav li a:hover {
 }
 .page3 {
 	background: #3C3C3C;
+	padding: 100px 0;
 	position: relative;
 	z-index: 99;
 }
