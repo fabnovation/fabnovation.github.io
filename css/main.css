@@ -905,6 +905,19 @@ nav#menu #menu-nav li a:hover {
 
 .image-wrap img {
 	width: 100%;
+	
+}
+
+.image-wrap2 {
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 0px;
+	cursor: pointer;
+	
+}
+
+.image-wrap2 img {
+	width: 100%;
 	min-height: 100%;
 }
 
