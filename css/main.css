@@ -729,13 +729,9 @@ nav#menu #menu-nav li a:hover {
 }
 .page2 {
 	background: #3C3C3C;
-	background-size: cover;
 	position: relative;
 	height: 140%;
-	z-index: 99;
 }
-
-
 
 .page-alternate {
 	background: #4C4C4C;
@@ -904,6 +900,7 @@ nav#menu #menu-nav li a:hover {
 	overflow: hidden;
 	margin-bottom: 0px;
 	cursor: pointer;
+	color: #3C3C3C
 }
 
 .image-wrap img {
