@@ -979,7 +979,7 @@ nav#menu #menu-nav li a:hover {
 }
 
 .image-wrap2 img {
-	min-width: 100%;
+	max-width: 100%;
 	min-height: 100%;
 }
 
