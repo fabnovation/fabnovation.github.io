@@ -736,7 +736,7 @@ nav#menu #menu-nav li a:hover {
 	height: 140%;
 }
 .page-alternate {
-	background: #2A2A2A;
+	background: #4C4C4C;
 	padding: 100px 0;
 	position: relative;
 	z-index: 99;
@@ -905,8 +905,11 @@ nav#menu #menu-nav li a:hover {
 }
 
 .image-wrap img {
-	width: 100%;	
+	width: 100%;
+	height: 100%;
+	margin: 0px;
 }
+
 
 .image-wrap  .hover-wrap {
 	position: absolute;
