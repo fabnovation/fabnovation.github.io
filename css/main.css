@@ -905,7 +905,7 @@ nav#menu #menu-nav li a:hover {
 
 .image-wrap img {
 	width: 100%;
-	height: auto;
+	min-height: 100%;
 }
 
 
