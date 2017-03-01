@@ -732,6 +732,9 @@ nav#menu #menu-nav li a:hover {
 	position: relative;
 	height: 140%;
 }
+
+
+
 .page-alternate {
 	background: #4C4C4C;
 	padding: 100px 0;
@@ -897,13 +900,14 @@ nav#menu #menu-nav li a:hover {
 .image-wrap {
 	position: relative;
 	overflow: hidden;
-	margin-bottom: 25px;
+	margin-bottom: 0px;
 	cursor: pointer;
 }
 
 .image-wrap img {
 	width: 100%;
 }
+
 
 
 .image-wrap  .hover-wrap {
@@ -1031,6 +1035,10 @@ nav#menu #menu-nav li a:hover {
 	padding: 0;	
 }
 
+
+
+
+
 #contact-form {
 	margin-bottom: 0;	
 }
@@ -1103,6 +1111,9 @@ nav#menu #menu-nav li a:hover {
 	margin-top: 20px;
 	color: #b4b4b4;
 }
+
+
+
 
 
 /* ==================================================
