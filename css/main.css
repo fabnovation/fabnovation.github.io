@@ -900,11 +900,12 @@ nav#menu #menu-nav li a:hover {
 	overflow: hidden;
 	margin-bottom: 0px;
 	cursor: pointer;
-	background-color: #3C3C3C
+	
 }
 
 .image-wrap img {
 	width: 100%;
+	height: auto;
 }
 
 
