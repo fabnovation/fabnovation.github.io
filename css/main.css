@@ -719,7 +719,7 @@ nav#menu #menu-nav li a:hover {
 	padding: 100px 0;
 	position: relative;
 	z-index: 99;
- margin-left: 0px;
+ 	margin-left: 0px;
     border-left-width: 10px;
     padding-left: 50px;
     border-right-width: 10px;
@@ -729,8 +729,10 @@ nav#menu #menu-nav li a:hover {
 }
 .page2 {
 	background: #3C3C3C;
+	background-size: cover;
 	position: relative;
 	height: 140%;
+	z-index: 99;
 }
 
 
