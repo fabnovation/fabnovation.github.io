@@ -979,9 +979,9 @@ nav#menu #menu-nav li a:hover {
 }
 
 .image-wrap2 img {
-	
 	min-height: 100%;
-	margin: 0px
+  	min-width: 1024px;
+
 }
 
 .image-wrap2  .hover-wrap {
