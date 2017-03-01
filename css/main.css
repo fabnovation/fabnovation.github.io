@@ -732,6 +732,11 @@ nav#menu #menu-nav li a:hover {
 	position: relative;
 	height: 140%;
 }
+.page3 {
+	background: #3C3C3C;
+	position: relative;
+	z-index: 99;
+}
 
 .page-alternate {
 	background: #4C4C4C;
