@@ -979,7 +979,7 @@ nav#menu #menu-nav li a:hover {
 }
 
 .image-wrap2 img {
-	min-height: 500px;
+	min-height: 100%;
   	min-width: 100%;
 
 }
@@ -1039,6 +1039,7 @@ nav#menu #menu-nav li a:hover {
 	line-height: 32px;
 	text-transform: uppercase;
 	text-align: center;
+	vertical-align: center;
 	
 	opacity: 1;
 	filter: alpha(opacity=100);
