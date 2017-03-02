@@ -977,10 +977,9 @@ nav#menu #menu-nav li a:hover {
 
 .image-wrap2 {
 	position: relative;
-	left: -20px;
+	padding-left: -20px;
+	padding-right: -20px;
 	overflow: hidden;
-	margin-bottom: 0px;
-	cursor: pointer;
 	
 }
 
