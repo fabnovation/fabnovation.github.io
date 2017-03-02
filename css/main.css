@@ -978,14 +978,15 @@ nav#menu #menu-nav li a:hover {
 .image-wrap2 {
 	position: relative;
 	overflow: hidden;
-	margin-bottom: 0px;
+
 
 }
 
 .image-wrap2 img {
 	height: auto;
   	width: 100%;
-
+	min-height: 100%;
+  	min-width: 800px;
 	
 }
 
