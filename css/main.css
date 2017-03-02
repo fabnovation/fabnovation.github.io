@@ -979,9 +979,9 @@ nav#menu #menu-nav li a:hover {
 	position: relative;
 	overflow: hidden;
 	margin-bottom: auto;
-    margin-left: auto;      
-    margin-right: auto;
-	
+
+	padding-left: -10px;
+	padding-right: -10px;
 }
 
 .image-wrap2 img {
