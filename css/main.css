@@ -979,6 +979,8 @@ nav#menu #menu-nav li a:hover {
 	position: relative;
 	padding-left: -20px;
 	padding-right: -20px;
+	padding-top: 0px;
+	padding-bottom: 0px;
 	overflow: hidden;
 	
 }
