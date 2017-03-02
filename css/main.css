@@ -978,10 +978,8 @@ nav#menu #menu-nav li a:hover {
 .image-wrap2 {
 	position: relative;
 	overflow: hidden;
-	margin-bottom: auto;
+	margin-bottom: 0px;
 
-	padding-left: -10px;
-	padding-right: -10px;
 }
 
 .image-wrap2 img {
@@ -989,6 +987,8 @@ nav#menu #menu-nav li a:hover {
   	width: 100%;
 	min-height: 100%;
   	min-width: 800px;
+	left: -20px;
+	right: -20px;
 	
 }
 
