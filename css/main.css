@@ -977,17 +977,14 @@ nav#menu #menu-nav li a:hover {
 
 .image-wrap2 {
 	position: relative;
-	overflow: hidden;
 	margin-bottom: 0px;
-	cursor: pointer;
+	
 	
 }
 
 .image-wrap2 img {
 	height: auto;
   	width: 100%;
-	margin-left: -20px;
-	margin-right: -20px;
 	min-height: 100%;
   	min-width: 800px;
 	
