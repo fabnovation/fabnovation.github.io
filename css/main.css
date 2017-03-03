@@ -734,8 +734,16 @@ nav#menu #menu-nav li a:hover {
 }
 .page3 {
 	background: #3C3C3C;
+	background-size: cover;
 	position: relative;
 	z-index: 99;
+	margin-left: 0px;
+    border-left-width: 10px;
+    padding-left: 0px;
+    border-right-width: 0px;
+    margin-right: 0px;
+    padding-right: 0px;
+    margin-top: 0px;
 }
 
 .page-alternate {
@@ -978,8 +986,7 @@ nav#menu #menu-nav li a:hover {
 .image-wrap2 {
 	position: relative;
 	overflow: hidden;
-
-
+	
 }
 
 .image-wrap2 img {
