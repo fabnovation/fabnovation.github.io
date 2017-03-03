@@ -735,6 +735,7 @@ nav#menu #menu-nav li a:hover {
 .page3 {
 	background: #3C3C3C;
 	background-size: cover;
+	padding: -20px;
 	position: relative;
 	z-index: 99;
 	margin-left: 0px;
