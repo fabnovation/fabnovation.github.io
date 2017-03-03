@@ -730,21 +730,12 @@ nav#menu #menu-nav li a:hover {
 .page2 {
 	background: #3C3C3C;
 	position: relative;
-	height: 140%;
+	height: 100%;
 }
 .page3 {
 	background: #3C3C3C;
-	background-size: cover;
-	padding: -20px;
 	position: relative;
 	z-index: 99;
-	margin-left: 0px;
-    border-left-width: -20px;
-    padding-left: -20px;
-    border-right-width: -20px;
-    margin-right: 0px;
-    padding-right: -20px;
-    margin-top: 0px;
 }
 
 .page-alternate {

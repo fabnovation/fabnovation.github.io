@@ -64,7 +64,6 @@
 	#navigation-mobile,
 	.page,
 	.page2,
-	.page3,
 	.page-alternate,
 	#twitter-feed,
 	footer {
@@ -204,6 +203,21 @@
 	}
 }
 
+
+
+
+@media (max-width: 480px){
+
+.page3 {
+		margin-left: -20px;
+		margin-right: -20px;
+		padding-left: -20px;
+		padding-right: -20px;	
+	}
+}
+
+
+
 @media (max-width: 480px) {
 	#back-to-top {
 		display: none !important;	
@@ -226,7 +240,6 @@
 	#navigation-mobile,
 	.page,
 	.page2,
-	.page3,
 	.page-alternate,
 	#twitter-feed,
 	footer {
